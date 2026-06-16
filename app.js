@@ -28,8 +28,8 @@
   lockScroll(true);
 
   function render(){
-    const mw = 300 + progress * (isMobile ? 650 : 1250);
-    const mh = 400 + progress * (isMobile ? 200 : 400);
+    const mw = 320 + progress * (isMobile ? 700 : 1400);
+    const mh = 240 + progress * (isMobile ? 380 : 600);
     const tx = progress * (isMobile ? 180 : 150);
 
     media.style.width  = mw + 'px';
